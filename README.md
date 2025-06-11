@@ -1,7 +1,42 @@
-Step : 1 - Download the zip file. 
-Step : 2 - go to this url ( https://openweathermap.org/ )
-Step : 3 - Register yourself there and click on your name shown in Navbar section.
-Step : 4 - Drop down links appear, there click on your API.
-Step : 5 - Copy that API and replace it with given API in Script.js file. 
+# 🌦️ Real-Time Weather App
 
-Note - sometimes new generated API takes few hours to activate so don't panic just wait.
+A simple and responsive web application that displays real-time weather information using the OpenWeatherMap API.
+
+## 🚀 Features
+
+- 🌍 Check current weather for any city worldwide
+- 📍 Auto-detect user location (with permission)
+- 🌡️ Shows temperature, humidity, weather description, and wind speed
+- 🖥️ Clean and responsive UI
+
+## 🛠️ Technologies Used
+
+- HTML
+- CSS
+- JavaScript (Vanilla)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+
+## 📦 Getting Started
+
+Follow these steps to get the app up and running on your machine.
+
+### 1. Clone the Repository
+
+``bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app``
+
+### 2. Get Your OpenWeatherMap API Key
+
+- Visit [https://openweathermap.org/](https://openweathermap.org/)
+- Create a free account or log in
+- Go to your profile and select **API Keys**
+- Click **Create Key**, give it a name, and copy the generated API key  
+  *(Note: It may take a few minutes to become active.)*
+
+### 3. Add Your API Key
+
+Open the `script.js` file and find the line:
+
+``js
+const API_KEY = 'YOUR_API_KEY_HERE';``
